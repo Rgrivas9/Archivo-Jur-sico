@@ -1,6 +1,7 @@
 import { PageContext } from "../context/pageContext";
 import { useContext } from "react";
 import HeaderPages from "./HeaderPages";
+import './header.css'
 
 const Header = () => {
   const { page} = useContext(PageContext);

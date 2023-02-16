@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { PageContext } from "../context/pageContext";
+import './home.css'
 
 const Home = () => {
   localStorage.setItem("pageDino", "home");
@@ -14,6 +15,7 @@ const Home = () => {
           setPage("mapa");
           navigate("/mapa");
         }}
+        className='mapBtn'
       >
         Mapa
       </button>
@@ -22,6 +24,7 @@ const Home = () => {
           setPage("archivo");
           navigate("/archivo");
         }}
+        className='dinosaurBtn'
       >
         Archivo
       </button>

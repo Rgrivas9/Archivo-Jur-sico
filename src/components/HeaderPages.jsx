@@ -1,6 +1,7 @@
 import { PageContext } from "../context/pageContext";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import './headerPages.css'
 
 const HeaderPages = () => {
   const { page, setPage } = useContext(PageContext);
@@ -13,7 +14,7 @@ const HeaderPages = () => {
           navigate("/");
         }}
       >
-        Volver
+        Home
       </button>
       {page == "archivo" ? <h1>Archivo</h1> : <h1>Mapa</h1>}
       {page == "archivo" ? (

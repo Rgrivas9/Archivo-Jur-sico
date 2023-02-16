@@ -1,3 +1,5 @@
+import './archivo.css'
+
 const Archivo = () => {
   localStorage.setItem("pageDino", "archivo");
   return (
