@@ -9,6 +9,7 @@ import "./App.css";
 function App() {
   const page = localStorage.getItem("pageDino");
   const { setPage } = useContext(PageContext);
+  window.addEventListener('beforeunload',()=>{localStorage.setItem('pageDino','home')})
   useEffect(() => {
     setPage(page);
   }, [page]);
