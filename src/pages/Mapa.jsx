@@ -30,7 +30,7 @@ const Mapa = () => {
         zoom={4}
         style={{ width: "100vw", height: "calc(100vh - 80px)" }}
         maxZoom={6}
-        minZoom={3}
+        minZoom={2}
         maxBounds={bounds}
       >
         <TileLayer
