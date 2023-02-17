@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-import Archivo from "./pages/archivo";
-import Mapa from "./pages/mapa";
-import Home from "./pages/home";
+import Archivo from "./pages/Archivo";
+import Mapa from "./pages/Mapa";
+import Home from "./pages/Home";
 import { PageContextProvider } from "./context/pageContext";
 import "./index.css";
 
