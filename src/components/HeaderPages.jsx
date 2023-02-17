@@ -7,7 +7,7 @@ const HeaderPages = () => {
   const { page, setPage } = useContext(PageContext);
   const navigate = useNavigate();
   return (
-    <header>
+    <header className="headerPages">
       <button
         onClick={() => {
           setPage("home");

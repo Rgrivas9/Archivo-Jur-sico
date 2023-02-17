@@ -1,0 +1,7 @@
+.mainArchivo {
+  background-color: var(--extra);
+  background-image: url("https://res.cloudinary.com/di0zpa5yw/image/upload/v1676632439/dinos/archivo_r861kk.png");
+  height: calc(100vh - 80px);
+  background-size: cover;
+  background-position: center;
+}

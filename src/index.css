@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "dinos";
+    src: url("../../jurassic.ttf");
+  }
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}

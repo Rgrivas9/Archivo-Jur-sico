@@ -1,0 +1,38 @@
+.headerPages {
+  background-color: var(--main);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid var(--extra);
+  border-top: 3px solid var(--extra);
+  height: 80px;
+  font-family: "dinos", "Segoe UI", Tahoma, Verdana, sans-serif;
+  padding: 0 1rem;
+}
+.headerPages h1 {
+  font-size: 80px;
+  letter-spacing: 5px;
+  color: var(--primary);
+  text-shadow: 2px 2px 2px var(--extra);
+}
+.headerPages button {
+  font-family: "dinos", "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-size: 50px;
+  width: 100px;
+  padding: 0.2 0.4rem;
+  background-color: var(--secondary);
+  border: 1px solid var(--terciary);
+  color: var(--extra);
+  border-radius: 2px;
+}
+@media screen and (max-width: 700px) {
+  .headerPages h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  .headerPages button {
+    font-size: 40px;
+    width: 70px;
+    padding: 0.1 0.2rem;
+  }
+}

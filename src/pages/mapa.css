@@ -1,0 +1,14 @@
+.leaflet-control-container {
+    display: none;
+}
+.leaflet-marker-icon {
+    width: 120px;
+    height: 80px;
+    cursor: url('https://res.cloudinary.com/di0zpa5yw/image/upload/v1676629816/dinos/skull_jyjtqv.png'),auto !important;
+}
+.leaflet-container {
+    cursor: url('https://res.cloudinary.com/di0zpa5yw/image/upload/v1676629816/dinos/skull1_pjdc73.png'),auto !important;
+}
+.leaflet-marker-icon:active {
+    cursor: url('https://res.cloudinary.com/di0zpa5yw/image/upload/v1676629816/dinos/skull1_pjdc73.png'),auto !important;
+}

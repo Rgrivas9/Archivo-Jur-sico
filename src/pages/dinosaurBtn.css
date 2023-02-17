@@ -1,7 +1,12 @@
 .dinosaurBtn {
-  width: 700px;
-  height: 500px;
-  background-color: crimson;
+  width: 450px;
+  height: 300px;
+  background-color: var(--main);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   clip-path: polygon(
     30% 97%,
     27% 90%,
@@ -170,4 +175,22 @@
     33% 95%,
     33% 98%
   );
+}
+@media screen and (max-width:700px) {
+  .dinosaurBtn {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (min-width:1000px) {
+  .dinosaurBtn {
+    width: 480px;
+    height: 300px;
+  }
+}
+@media screen and (min-width:1520px) {
+  .dinosaurBtn {
+    width: 750px;
+    height: 500px;
+  }
 }

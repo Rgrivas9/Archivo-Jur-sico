@@ -6,7 +6,7 @@ import './header.css'
 const Header = () => {
   const { page} = useContext(PageContext);
   return (
-      (page == "home" && <header><h1>Bienvenido al archivo jurásico</h1></header>) ||
+      (page == "home" && <header className="header"><h1>Bienvenido al archivo jurasico</h1></header>) ||
         (page != "home" && <HeaderPages/>)
     
   );
