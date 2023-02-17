@@ -1,6 +1,7 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "./mapa.css";
+import { useEffect, useState } from "react";
 
 const center = [38, -10];
 const position = [41, -9];
@@ -13,9 +14,18 @@ const getIcon = () => {
 const southWest = L.latLng(-75, -180);
 const northEast = L.latLng(78, 190);
 const bounds = L.latLngBounds(southWest, northEast);
-
 const Mapa = () => {
   localStorage.setItem("pageDino", "mapa");
+  const [dinos, setDinos] = useState(null);
+  const [filterDinos, setFilterDinos] = useState(null);
+  const getDinos= async () => {
+    const data = await fetch("https://63ee3a9bd466e0c18babfb1c.mockapi.io/dinosaurs")
+    const dinos = await data.json()
+    setDinos(dinos)
+    setFilterDinos(dinos)}
+  useEffect(() => {
+    getDinos()
+  }, []);
   return (
     <main className="mainMapa">
       <MapContainer

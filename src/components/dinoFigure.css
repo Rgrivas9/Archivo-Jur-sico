@@ -1,0 +1,31 @@
+.dinoFigure {
+    display: flex;
+    background-color: var(--main);
+    padding: 1rem 2rem;
+    width: 1000px;
+    height: 700px;
+}
+.fosilImg {
+    height: 300px;
+    min-width: 400px;
+    object-fit: cover;
+}
+.nombre {}
+.ulNombre {}
+.periodo {}
+.ulPeriodo {}
+.botones {}
+.ruidoBtn {}
+.fotoBtn{}
+.paleoart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.paleoart img {
+    max-width: 95vw;
+    max-height: 95vh;
+    min-height: 50vh;
+    min-width: 50vh;
+}

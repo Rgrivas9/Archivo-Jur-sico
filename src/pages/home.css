@@ -41,7 +41,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--terciary);
+  color: var(--main);
   z-index: 2;
   pointer-events: none;
   letter-spacing: 5px;
