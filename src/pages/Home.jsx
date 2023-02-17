@@ -6,6 +6,7 @@ import "./home.css";
 const Home = () => {
   localStorage.setItem("pageDino", "home");
   const { setPage } = useContext(PageContext);
+  setPage('home')
   const navigate = useNavigate();
   return (
     <main className="mainHome">
