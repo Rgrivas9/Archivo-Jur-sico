@@ -12,7 +12,7 @@ const Archivo = () => {
         setDinos(res);
         setFilterDinos(res);
       });
-  }, []);
+  }, [dinos]);
   
   return (
     <main className="mainArchivo">
