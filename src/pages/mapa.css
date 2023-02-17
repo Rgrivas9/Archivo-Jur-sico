@@ -12,3 +12,18 @@
 .leaflet-marker-icon:active {
     cursor: url('https://res.cloudinary.com/di0zpa5yw/image/upload/v1676629816/dinos/skull1_pjdc73.png'),auto !important;
 }
+.leaflet-popup-content-wrapper, .leaflet-popup.tip {
+    background-color: #00000000;
+    box-shadow: none;
+  }
+.leaflet-popup-tip, .leaflet-popup.tip {
+    background-color: #00000000
+}
+.leaflet-popup-close-button, .leaflet-popup.tip {
+    display: none;
+}
+.leaflet-popup, .leaflet-popup.tip {
+    right: 800px;
+    top: -180px;
+    margin-left: 100px;
+}

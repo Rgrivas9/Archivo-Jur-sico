@@ -13,6 +13,7 @@ const Archivo = () => {
         setFilterDinos(res);
       });
   }, []);
+  
   return (
     <main className="mainArchivo">
       <div className="selectArchivo"></div>

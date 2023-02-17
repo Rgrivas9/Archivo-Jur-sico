@@ -2,12 +2,11 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "./mapa.css";
 import { useEffect, useState } from "react";
-
+import DinoFigure from '../components/DinoFigure'
 const center = [38, -10];
-const position = [41, -9];
-const getIcon = () => {
+const getIcon = (url) => {
   const icon = new L.icon({
-    iconUrl: "../ALLOSAURUS.png",
+    iconUrl: url,
   });
   return icon;
 };
@@ -16,15 +15,13 @@ const northEast = L.latLng(78, 190);
 const bounds = L.latLngBounds(southWest, northEast);
 const Mapa = () => {
   localStorage.setItem("pageDino", "mapa");
-  const [dinos, setDinos] = useState(null);
-  const [filterDinos, setFilterDinos] = useState(null);
-  const getDinos= async () => {
-    const data = await fetch("https://63ee3a9bd466e0c18babfb1c.mockapi.io/dinosaurs")
-    const dinos = await data.json()
-    setDinos(dinos)
-    setFilterDinos(dinos)}
+  const [dinos, setDinos] = useState([]);
   useEffect(() => {
-    getDinos()
+    fetch("https://63ee3a9bd466e0c18babfb1c.mockapi.io/dinosaurs")
+      .then((res) => res.json())
+      .then((res) => {
+        setDinos(res);
+      });
   }, []);
   return (
     <main className="mainMapa">
@@ -40,11 +37,13 @@ const Mapa = () => {
           url="https://api.maptiler.com/tiles/satellite-v2/{z}/{x}/{y}.jpg?key=lrkSSWlrlq0GXEsRnGOY"
           attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
         ></TileLayer>
-        <Marker position={position} icon={getIcon()}>
-          <Popup className="leaflet-popup">
-            <div className="hola">hola</div>
-          </Popup>
-        </Marker>
+        {dinos.map((dinosaurio) => (
+          <Marker position={dinosaurio.coordenadas} icon={getIcon(dinosaurio.media.marker)} key={dinosaurio.id}>
+            <Popup className="leaflet-popup">
+              <DinoFigure dino={dinosaurio}></DinoFigure>
+            </Popup>
+          </Marker>
+        ))}
       </MapContainer>
     </main>
   );
