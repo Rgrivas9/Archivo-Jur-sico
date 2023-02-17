@@ -1,31 +1,110 @@
 .dinoFigure {
-    display: flex;
-    background-color: var(--main);
-    padding: 1rem 2rem;
-    width: 1000px;
-    height: 700px;
+  display: flex;
+  gap: 1rem;
+  background-image: url('https://res.cloudinary.com/di0zpa5yw/image/upload/v1676651290/dinos/6534f3c12b53d0928631bae0738b9f02_nk9ps3.png');
+  background-position-x: center;
+  padding: 0.5rem 1.5rem;
+  background-size: cover;
+  width: 1000px;
+  height: 700px;
+  border: 1px solid var(--primary);
+  border-radius: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--terciary);
+  position: relative;
 }
 .fosilImg {
-    height: 300px;
-    min-width: 400px;
-    object-fit: cover;
+  width: 50%;
+  border-radius: 2px;
 }
-.nombre {}
-.ulNombre {}
-.periodo {}
-.ulPeriodo {}
-.botones {}
-.ruidoBtn {}
-.fotoBtn{}
+.nombre h2 {
+  position: absolute;
+  top: 5%;
+  font-size: 40px;
+  color: var(--primary);
+  text-shadow: 2px 2px 2px black;
+}
+.nombre {
+  margin-top: 10%;
+  background-color: rgba(0, 0, 0, 0.205);
+}
+.ulNombre li {
+  font-size: 20px;
+  padding: 0.5rem;
+  text-shadow: 1px 1px 1px black;
+}
+.botones {
+  position: absolute;
+  right: 8%;
+  bottom: 5%;
+  display: flex;
+  gap: 2rem;
+}
+.botones button {
+  border: 1px solid var(--primary);
+  background-color: rgba(0, 0, 0, 0.466);
+  border-radius: 2px;
+  height: 40px;
+  width: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--terciary);
+  font-size: 15px;
+}
+.botones button:hover {
+  background-color: var(--secondary);
+}
 .paleoart {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .paleoart img {
-    max-width: 95vw;
-    max-height: 95vh;
-    min-height: 50vh;
-    min-width: 50vh;
+  max-width: 75vw;
+  max-height: 75vh;
+  min-width: 40vh;
+  z-index: 8;
 }
+@media screen and (max-width: 1000px) {
+  .dinoFigure {
+    width: 500px;
+    height: 350px;
+    padding: 0.3rem 1rem;
+  }
+  .nombre h2 {
+    font-size: 20px;
+  }
+  .ulNombre li {
+    font-size: 12px;
+    padding: 0.1rem;
+  }
+  .botones button {
+    height: 20px;
+    width: 75px;
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 500px) {
+    .dinoFigure {
+      width: 300px;
+      height: 220px;
+      padding: 0.2rem 0.7rem;
+    }
+    .nombre h2 {
+      font-size: 15px;
+    }
+    .ulNombre li {
+      font-size: 7px;
+    }
+    .botones {
+        gap: 0.5rem;
+      }
+    .botones button {
+      height: 15px;
+      width: 50px;
+      font-size: 6px;
+    }
+  }
+  
