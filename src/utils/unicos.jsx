@@ -1,6 +1,7 @@
-const unicos = (lista) => {
+const unicos = (dinos,filtro) => {
   const listaSinRepetir = [];
-  const index = 0;
+  let index = 0;
+  const lista=dinos.map((dino)=>dino[filtro])
   lista.sort();
   lista.forEach((element) => {
     index++
