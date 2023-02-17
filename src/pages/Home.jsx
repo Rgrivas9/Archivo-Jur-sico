@@ -1,12 +1,14 @@
 import { useNavigate } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { PageContext } from "../context/pageContext";
 import "./home.css";
 
 const Home = () => {
   localStorage.setItem("pageDino", "home");
-  const { setPage } = useContext(PageContext);
-  setPage('home')
+  const { page, setPage } = useContext(PageContext);
+  useEffect(() => {
+    setPage("home");
+  }, [page]);
   const navigate = useNavigate();
   return (
     <main className="mainHome">

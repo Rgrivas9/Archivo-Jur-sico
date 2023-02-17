@@ -6,7 +6,7 @@
   padding: 0.5rem 1.5rem;
   background-size: cover;
   width: 1000px;
-  height: 700px;
+  height: 650px;
   border: 1px solid var(--primary);
   border-radius: 2px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -70,7 +70,7 @@
 @media screen and (max-width: 1000px) {
   .dinoFigure {
     width: 500px;
-    height: 350px;
+    height: 320px;
     padding: 0.3rem 1rem;
   }
   .nombre h2 {
@@ -89,7 +89,7 @@
 @media screen and (max-width: 500px) {
     .dinoFigure {
       width: 300px;
-      height: 220px;
+      height: 200px;
       padding: 0.2rem 0.7rem;
     }
     .nombre h2 {
