@@ -17,7 +17,7 @@ const filtrado = (lista, objeto) => {
   if (objeto.orden !== "todos") {
     listafiltrada = listafiltrada.filter((dino) => dino.orden === objeto.orden);
   }
-
+  listafiltrada = listafiltrada.filter((dino) => (dino.nombre.toLowerCase()).includes((objeto.input).toLowerCase()))
   listafiltrada = ordenar(listafiltrada, objeto.ordenado, objeto.modo);
 
   return listafiltrada;

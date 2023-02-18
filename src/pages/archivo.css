@@ -4,22 +4,136 @@
   height: calc(100vh - 80px);
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .selectArchivo {
-  height: 50px;
+  height: 80px;
   background-color: var(--primary);
   border-bottom: 2px solid var(--extra);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.selectArchivo select {
+  border: 1px solid var(--main);
+  background-color: var(--terciary);
+  color: var(--extra);
+  border-radius: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px;
+}
+.selectArchivo select:focus {
+  outline: none;
+}
+.selectArchivo input {
+  border: 1px solid var(--main);
+  background-color: var(--terciary);
+  color: var(--extra);
+  border-radius: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px;
+}
+.selectArchivo input:focus {
+  outline: none;
+}
+.selectArchivo button {
+  border: 1px solid var(--extra);
+  background-color: var(--secondary);
+  color: var(--extra);
+  border-radius: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px 4px;
+}
+.selectArchivo button:focus {
+  outline: none;
+}
+.selectArchivo button:hover {
+  background-color: var(--secondary);
+}
+.MrAdn{
+  height: calc(100vh - 109px);
+  width: 100vw;
+  background-image: url("https://res.cloudinary.com/di0zpa5yw/image/upload/v1676723031/dinos/Mr.-DNA-_vx74tk.gif");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MrAdn h2{
+  font-size: 50px;
+  font-family: 'dinos';
+  letter-spacing: 5px;
+  color: var(--primary);
 }
 .dinosaurSection {
-    height: calc(100vh - 130px);
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 3rem;
+  height: calc(100vh - 160px);
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
 }
-.dinosaurSection::-webkit-scrollbar {
-    display: none;}
+.sectionWithoutSelectNav {
+  height: calc(100vh - 109px);
+}
+.filtrosBtn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0.3rem;
+  background-color: var(--primary);
+  width: 100vw;
+  height: 27px;
+}
+.filtrosBtn button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 245, 220, 0);
+  border: none;
+  color: var(--extra);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px;
+  z-index: 3;
+}
+.filtrosBtn button img {
+  width: 20px;
+  transition: all 0.3s ease-in-out;
+  margin-left: 0.3rem;
+}
+.buttonHide {
+  background-color: rgba(0, 0, 255, 0) !important;
+  border: none !important;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 0.2vw;
+}
+
+.buttonHide img {
+  width: 20px;
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in-out;
+}
+.buttonHide:hover img {
+  width: 22px;
+}
+.noHeight {
+  height: 0;
+}
+.noHeight input {
+  display: none;
+}
+.noHeight select {
+  display: none;
+}
+.noHeight button {
+  display: none;
+}

@@ -1,7 +1,7 @@
 .dinoFigure {
   display: flex;
   gap: 1rem;
-  background-image: url('https://res.cloudinary.com/di0zpa5yw/image/upload/v1676651290/dinos/6534f3c12b53d0928631bae0738b9f02_nk9ps3.png');
+  background-image: url("https://res.cloudinary.com/di0zpa5yw/image/upload/v1676651290/dinos/6534f3c12b53d0928631bae0738b9f02_nk9ps3.png");
   background-position-x: center;
   padding: 0.5rem 1.5rem;
   background-size: cover;
@@ -87,24 +87,40 @@
   }
 }
 @media screen and (max-width: 500px) {
-    .dinoFigure {
-      width: 300px;
-      height: 200px;
-      padding: 0.2rem 0.7rem;
-    }
-    .nombre h2 {
-      font-size: 15px;
-    }
-    .ulNombre li {
-      font-size: 7px;
-    }
-    .botones {
-        gap: 0.5rem;
-      }
-    .botones button {
-      height: 15px;
-      width: 50px;
-      font-size: 6px;
-    }
+  .dinoFigure {
+    width: 300px;
+    height: 200px;
+    padding: 0.2rem 0.7rem;
   }
-  
+  .nombre h2 {
+    font-size: 15px;
+  }
+  .ulNombre li {
+    font-size: 7px;
+  }
+  .botones {
+    gap: 0.5rem;
+  }
+  .botones button {
+    height: 15px;
+    width: 50px;
+    font-size: 6px;
+  }
+  .mapaDinoFigure {
+    width: 500px !important;
+    height: 320px;
+    padding: 0.3rem 1rem;
+  }
+  .mapaDinoFigure h2 {
+    font-size: 20px;
+  }
+  .mapaDinoFigure li {
+    font-size: 12px;
+    padding: 0.1rem;
+  }
+  .mapaDinoFigure button {
+    height: 20px;
+    width: 75px;
+    font-size: 9px;
+  }
+}

@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import DinoFigure from "../components/DinoFigure";
 import { PageContext } from "../context/pageContext";
 import filtrado from "../utils/filtrado";
@@ -20,6 +20,8 @@ const Archivo = () => {
       .then((res) => {
         setDinos(ordenar(res, "nombre", 0));
         setFilterDinos(ordenar(res, "nombre", 0));
+        mrAdn.current.classList.add('hidden')
+        dinoSection.current.classList.remove('hidden')
       });
   }, []);
   const [filtros, setFiltros] = useState({
@@ -29,11 +31,60 @@ const Archivo = () => {
     dieta: "todas",
     ordenado: "nombre",
     modo: 0,
+    input: "",
   });
+  const [filtrosReset] = useState({
+    periodo: "todos",
+    ubicacion: "todas",
+    orden: "todos",
+    dieta: "todas",
+    ordenado: "nombre",
+    modo: 0,
+    input: "",
+  });
+  const inputFiltro = useRef();
+  const peridoSelect = useRef();
+  const ubicacionSelect = useRef();
+  const ordenSelect = useRef();
+  const dietaSelect = useRef();
+  const ordenadoSelect = useRef();
+  const filtrosDiv = useRef();
+  const dinoSection = useRef();
+  const buttonShowFilters = useRef();
+  const buttonHideFilters = useRef();
+  const mrAdn = useRef()
   return (
     <main className="mainArchivo">
-      <div className="selectArchivo">
-        <input type="text" />
+      <div className="filtrosBtn" ref={buttonShowFilters}>
+        <button
+          onClick={() => {
+            buttonShowFilters.current.classList.add("noHeight");
+            filtrosDiv.current.classList.remove("noHeight");
+            dinoSection.current.classList.remove("sectionWithoutSelectNav");
+            buttonHideFilters.current.classList.remove("hidden");
+          }}
+        >
+          filtros
+          <img
+            src="https://res.cloudinary.com/di0zpa5yw/image/upload/v1676711474/dinos/flecha-hacia-abajo_cqsgol.png"
+            alt="flecha arriba"
+          />
+        </button>
+      </div>
+      <div className="selectArchivo noHeight" ref={filtrosDiv}>
+        <input
+          type="text"
+          placeholder="Buscar por nombre"
+          onChange={(ev) => {
+            setFiltros({ ...filtros, input: ev.currentTarget.value });
+            const updatedFiltros = {
+              ...filtros,
+              input: ev.currentTarget.value,
+            };
+            setFilterDinos(filtrado(dinos, updatedFiltros));
+          }}
+          ref={inputFiltro}
+        />
         <select
           name="periodo"
           id="periodo"
@@ -45,8 +96,9 @@ const Archivo = () => {
             };
             setFilterDinos(filtrado(dinos, updatedFiltros));
           }}
+          ref={peridoSelect}
         >
-          <option value="todos">todos</option>
+          <option value="todos">Periodo</option>
           {unicos(filterDinos, "periodo").map((filtro) => (
             <option value={filtro} key={filtro}>
               {filtro}
@@ -64,8 +116,9 @@ const Archivo = () => {
             };
             setFilterDinos(filtrado(dinos, updatedFiltros));
           }}
+          ref={ubicacionSelect}
         >
-          <option value="todas">todas</option>
+          <option value="todas">Ubicación</option>
           {unicos(filterDinos, "ubicacion").map((filtro) => (
             <option value={filtro} key={filtro}>
               {filtro}
@@ -83,8 +136,9 @@ const Archivo = () => {
             };
             setFilterDinos(filtrado(dinos, updatedFiltros));
           }}
+          ref={ordenSelect}
         >
-          <option value="todos">todos</option>
+          <option value="todos">Orden</option>
           {unicos(filterDinos, "orden").map((filtro) => (
             <option value={filtro} key={filtro}>
               {filtro}
@@ -102,8 +156,9 @@ const Archivo = () => {
             };
             setFilterDinos(filtrado(dinos, updatedFiltros));
           }}
+          ref={dietaSelect}
         >
-          <option value="todas">todas</option>
+          <option value="todas">Dieta</option>
           {unicos(filterDinos, "dieta").map((filtro) => (
             <option value={filtro} key={filtro}>
               {filtro}
@@ -136,22 +191,50 @@ const Archivo = () => {
             };
             setFilterDinos(filtrado(dinos, updatedFiltros));
           }}
+          ref={ordenadoSelect}
         >
-          <option value="nombre0">nombre</option>
+          <option value="nombre0">Orden alfabético</option>
           <option value="longitud1">mayor longitud</option>
           <option value="longitud0">menor longitud</option>
           <option value="peso1">mayor peso</option>
           <option value="peso0">menor peso</option>
         </select>
-      </div>
-      <section className="dinosaurSection">
         <button
           onClick={() => {
-            setFilterDinos(filtrado(dinos, filtros));
+            setFiltros({ ...filtrosReset });
+            const updatedFiltros = { ...filtrosReset };
+            setFilterDinos(filtrado(dinos, updatedFiltros));
+            inputFiltro.current.value = "";
+            peridoSelect.current.value = "todos";
+            ordenSelect.current.value = "todos";
+            dietaSelect.current.value = "todas";
+            ordenadoSelect.current.value = "nombre0";
+            ubicacionSelect.current.value = "todas";
           }}
         >
-          filtro
+          Restablecer filtros
         </button>
+        <button
+          className="buttonHide hidden"
+          ref={buttonHideFilters}
+          onClick={() => {
+            filtrosDiv.current.classList.add("noHeight");
+            dinoSection.current.classList.add("sectionWithoutSelectNav");
+            buttonShowFilters.current.classList.remove("noHeight");
+            buttonHideFilters.current.classList.add("hidden");
+          }}
+        >
+          <img
+            src="https://res.cloudinary.com/di0zpa5yw/image/upload/v1676711474/dinos/flecha-hacia-abajo_cqsgol.png"
+            alt="flecha arriba"
+          />
+        </button>
+      </div>
+          <div className="MrAdn" ref={mrAdn}><h2>Cargando...</h2></div>
+      <section
+        className="dinosaurSection sectionWithoutSelectNav hidden"
+        ref={dinoSection}
+      >
         {filterDinos.map((dinosaurio) => (
           <DinoFigure dino={dinosaurio} key={dinosaurio.id}></DinoFigure>
         ))}

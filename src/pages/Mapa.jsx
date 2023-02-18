@@ -45,7 +45,7 @@ const Mapa = () => {
         {dinos.map((dinosaurio) => (
           <Marker position={dinosaurio.coordenadas} icon={getIcon(dinosaurio.media.marker)} key={dinosaurio.id}>
             <Popup className="leaflet-popup">
-              <DinoFigure dino={dinosaurio}></DinoFigure>
+              <DinoFigure dino={dinosaurio} className='dinoFigure'></DinoFigure>
             </Popup>
           </Marker>
         ))}

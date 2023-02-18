@@ -1,11 +1,13 @@
-import { useRef } from "react";
+import { useContext, useRef } from "react";
+import { PageContext } from "../context/pageContext";
 import "./dinoFigure.css";
 
 const DinoFigure = ({ dino }) => {
   const audio = useRef();
   const imagen = useRef();
+  const {page} = useContext(PageContext)
   return (
-    <figure className="dinoFigure">
+    <figure className={page=='mapa' ? "dinoFigure mapaDinoFigure" : "dinoFigure"}>
       <img
         src={dino.media.fosil}
         alt={`${dino.nombre} fósil`}
