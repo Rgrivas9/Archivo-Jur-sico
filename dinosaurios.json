@@ -1,398 +1,464 @@
 [
   {
-    "nombre": "Velociraptor",
-    "orden": "Saurischia",
-    "dieta": "Carnívoro",
-    "longitud": 1.8,
-    "peso": 19,
-    "ubicacion": "Mongolia",
-    "coordenadas": [45, 104],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/VELO_i0hck7.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/veloci_x0dwcb.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574170/dinos/photos/velocirra_lkh5ff.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/velocirraptor_f18mft.m4a"
-    },
-    "significado": "ladrón veloz",
-    "id": "1"
+   "nombre": "Velociraptor",
+   "orden": "Saurischia",
+   "dieta": "Carnívoro",
+   "longitud": 1.8,
+   "peso": 19,
+   "ubicacion": "Mongolia",
+   "coordenadas": [
+    45,
+    104
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/VELO_i0hck7.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/veloci_x0dwcb.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574170/dinos/photos/velocirra_lkh5ff.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/velocirraptor_f18mft.m4a"
+   },
+   "significado": "ladrón veloz",
+   "id": "1"
   },
   {
-    "nombre": "Troodon",
-    "orden": "Saurischia",
-    "dieta": "Omnívoro",
-    "longitud": 2,
-    "peso": 35,
-    "ubicacion": "Norteámerica",
-    "coordenadas": [52, -122],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/TROODON_hi1v1i.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647666/dinos/fossils/trood_mt3kjz.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574170/dinos/photos/troodon_sg4n2v.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/troodon_m8s2po.m4a"
-    },
-    "significado": "diente que hiere",
-    "id": "2"
+   "nombre": "Troodon",
+   "orden": "Saurischia",
+   "dieta": "Omnívoro",
+   "longitud": 2,
+   "peso": 35,
+   "ubicacion": "Norteámerica",
+   "coordenadas": [
+    52,
+    -122
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/TROODON_hi1v1i.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647666/dinos/fossils/trood_mt3kjz.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574170/dinos/photos/troodon_sg4n2v.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/troodon_m8s2po.m4a"
+   },
+   "significado": "diente que hiere",
+   "id": "2"
   },
   {
-    "nombre": "Triceratops",
-    "orden": "Ornithischia",
-    "dieta": "Hervívoro",
-    "longitud": 9,
-    "peso": 7000,
-    "ubicacion": "Norteámerica",
-    "coordenadas": [38, -98],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/TRICERA_sdbmhe.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/tricera_cvrzhu.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/tricera_i6cwex.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/triceratops_rkm1l1.m4a"
-    },
-    "significado": "cara con tres cuernos",
-    "id": "3"
+   "nombre": "Triceratops",
+   "orden": "Ornithischia",
+   "dieta": "Hervívoro",
+   "longitud": 9,
+   "peso": 7000,
+   "ubicacion": "Norteámerica",
+   "coordenadas": [
+    38,
+    -98
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/TRICERA_sdbmhe.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/tricera_cvrzhu.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/tricera_i6cwex.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/triceratops_rkm1l1.m4a"
+   },
+   "significado": "cara con tres cuernos",
+   "id": "3"
   },
   {
-    "nombre": "Tyrannosaurus Rex",
-    "orden": "Saurischia",
-    "dieta": "Carnívoro",
-    "longitud": 13,
-    "peso": 8000,
-    "ubicacion": "Norteámerica",
-    "coordenadas": [40, -79],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/TYRANO_tabygb.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/trex_sb0kno.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574170/dinos/photos/trex_zhfsgm.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/trex_yyntpf.m4a"
-    },
-    "significado": "lagarto tirano",
-    "id": "4"
+   "nombre": "Tyrannosaurus Rex",
+   "orden": "Saurischia",
+   "dieta": "Carnívoro",
+   "longitud": 13,
+   "peso": 8000,
+   "ubicacion": "Norteámerica",
+   "coordenadas": [
+    40,
+    -79
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/TYRANO_tabygb.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/trex_sb0kno.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574170/dinos/photos/trex_zhfsgm.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/trex_yyntpf.m4a"
+   },
+   "significado": "lagarto tirano",
+   "id": "4"
   },
   {
-    "nombre": "Tarbosaurus",
-    "orden": "Saurischia",
-    "dieta": "Carnívoro",
-    "longitud": 10,
-    "peso": 5000,
-    "ubicacion": "China",
-    "coordenadas": [35,99],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/TARBO_p3xbxx.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/tarbo_qyfy4i.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/tarbo_dci9xu.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/tarbosaurio_bc5xnx.m4a"
-    },
-    "significado": "lagarto alarmante",
-    "id": "5"
+   "nombre": "Tarbosaurus",
+   "orden": "Saurischia",
+   "dieta": "Carnívoro",
+   "longitud": 10,
+   "peso": 5000,
+   "ubicacion": "China",
+   "coordenadas": [
+    35,
+    99
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/TARBO_p3xbxx.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/tarbo_qyfy4i.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/tarbo_dci9xu.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/tarbosaurio_bc5xnx.m4a"
+   },
+   "significado": "lagarto alarmante",
+   "id": "5"
   },
   {
-    "nombre": "Suchomimus",
-    "orden": "Saurischia",
-    "dieta": "Piscívoro",
-    "longitud": 11,
-    "peso": 4000,
-    "ubicacion": "África",
-    "coordenadas": [15,-13],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/SUCHHOM_qc14ug.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/sucho_mrm8pd.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/suchomi_m7g8i1.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/suchomimus_jdcsnn.m4a"
-    },
-    "significado": "imitador de cocodrilo",
-    "id": "6"
+   "nombre": "Suchomimus",
+   "orden": "Saurischia",
+   "dieta": "Piscívoro",
+   "longitud": 11,
+   "peso": 4000,
+   "ubicacion": "África",
+   "coordenadas": [
+    15,
+    -13
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/SUCHHOM_qc14ug.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/sucho_mrm8pd.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/suchomi_m7g8i1.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574231/dinos/sounds/suchomimus_jdcsnn.m4a"
+   },
+   "significado": "imitador de cocodrilo",
+   "id": "6"
   },
   {
-    "nombre": "Stegosaurus",
-    "orden": "Ornithischia",
-    "dieta": "Hervíboro",
-    "longitud": 4,
-    "peso": 7000,
-    "ubicacion": "Norteámerica",
-    "coordenadas": [35,-112],
-    "periodo": "Jurásico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/STEGO_wjgrdq.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647664/dinos/fossils/stego_xr5pja.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/stego_cx3frb.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/stegosaurio_kgehtw.m4a"
-    },
-    "significado": "lagarto cubierto",
-    "id": "7"
+   "nombre": "Stegosaurus",
+   "orden": "Ornithischia",
+   "dieta": "Hervíboro",
+   "longitud": 4,
+   "peso": 7000,
+   "ubicacion": "Norteámerica",
+   "coordenadas": [
+    35,
+    -112
+   ],
+   "periodo": "Jurásico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/STEGO_wjgrdq.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647664/dinos/fossils/stego_xr5pja.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/stego_cx3frb.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/stegosaurio_kgehtw.m4a"
+   },
+   "significado": "lagarto cubierto",
+   "id": "7"
   },
   {
-    "nombre": "Majungasaurus",
-    "orden": "Saurischia",
-    "dieta": "Carnívoro",
-    "longitud": 5,
-    "peso": 1800,
-    "ubicacion": "Madagascar",
-    "coordenadas": [-18,47],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/MAJUNGA_tb4xck.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647663/dinos/fossils/majunga_seuieo.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/majunga_sjbuco.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/majungasaurio_utxf3o.m4a"
-    },
-    "significado": "Lagarto de Mahajanga",
-    "id": "8"
+   "nombre": "Majungasaurus",
+   "orden": "Saurischia",
+   "dieta": "Carnívoro",
+   "longitud": 5,
+   "peso": 1800,
+   "ubicacion": "Madagascar",
+   "coordenadas": [
+    -18,
+    43
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/MAJUNGA_tb4xck.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647663/dinos/fossils/majunga_seuieo.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/majunga_sjbuco.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/majungasaurio_utxf3o.m4a"
+   },
+   "significado": "Lagarto de Mahajanga",
+   "id": "8"
   },
   {
-    "nombre": "Spinosaurus",
-    "orden": "Saurischia",
-    "dieta": "Carnívoro",
-    "longitud": 18,
-    "peso": 16000,
-    "ubicacion": "África",
-    "coordenadas": [29,26],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/SPINO_txiq4c.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647664/dinos/fossils/spino_m6enae.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/spino_bv0oyu.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/spinosaurus_podvoy.m4a"
-    },
-    "significado": "lagarto de espina",
-    "id": "9"
+   "nombre": "Spinosaurus",
+   "orden": "Saurischia",
+   "dieta": "Carnívoro",
+   "longitud": 18,
+   "peso": 16000,
+   "ubicacion": "África",
+   "coordenadas": [
+    29,
+    26
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/SPINO_txiq4c.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647664/dinos/fossils/spino_m6enae.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/spino_bv0oyu.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/spinosaurus_podvoy.m4a"
+   },
+   "significado": "lagarto de espina",
+   "id": "9"
   },
   {
-    "nombre": "Pteranodon",
-    "orden": "Pterosauria",
-    "dieta": "Piscívoro",
-    "longitud": 6,
-    "peso": 80,
-    "ubicacion": "Norteámerica",
-    "coordenadas": [30,-97],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/PTERANO_kpppy2.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/pteranodon_iqpqld.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/pteranoson_orrlfz.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/pteranodon_hwxzop.m4a"
-    },
-    "significado": "desdentado",
-    "id": "10"
+   "nombre": "Pteranodon",
+   "orden": "Pterosauria",
+   "dieta": "Piscívoro",
+   "longitud": 6,
+   "peso": 80,
+   "ubicacion": "Norteámerica",
+   "coordenadas": [
+    30,
+    -97
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/PTERANO_kpppy2.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/pteranodon_iqpqld.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/pteranoson_orrlfz.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/pteranodon_hwxzop.m4a"
+   },
+   "significado": "desdentado",
+   "id": "10"
   },
   {
-    "nombre": "Iguanodon",
-    "orden": "Ornithischia",
-    "dieta": "Hervíboro",
-    "longitud": 10,
-    "peso": 3000,
-    "ubicacion": "Europa",
-    "coordenadas": [48,8],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577741/dinos/skulls/IGUANO_latekh.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647662/dinos/fossils/iguano_ydsr9a.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/iguano_zkhvr3.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/iguanodon_azvzdc.m4a"
-    },
-    "significado": "diente de iguana",
-    "id": "11"
+   "nombre": "Iguanodon",
+   "orden": "Ornithischia",
+   "dieta": "Hervíboro",
+   "longitud": 10,
+   "peso": 3000,
+   "ubicacion": "Europa",
+   "coordenadas": [
+    48,
+    8
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577741/dinos/skulls/IGUANO_latekh.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647662/dinos/fossils/iguano_ydsr9a.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/iguano_zkhvr3.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/iguanodon_azvzdc.m4a"
+   },
+   "significado": "diente de iguana",
+   "id": "11"
   },
   {
-    "nombre": "Ankylosaurus",
-    "orden": "Ornithischia",
-    "dieta": "Hervíboro",
-    "longitud": 7,
-    "peso": 6000,
-    "ubicacion": "Norteámerica",
-    "coordenadas": [39,-90],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/ANKYLO_w7ksag.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647667/dinos/fossils/ankylo_i5wo7m.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574167/dinos/photos/ankylo_b820la.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/ankylosaurio_f9wing.m4a"
-    },
-    "significado": "lagarto acorazado",
-    "id": "12"
+   "nombre": "Ankylosaurus",
+   "orden": "Ornithischia",
+   "dieta": "Hervíboro",
+   "longitud": 7,
+   "peso": 6000,
+   "ubicacion": "Norteámerica",
+   "coordenadas": [
+    39,
+    -90
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/ANKYLO_w7ksag.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647667/dinos/fossils/ankylo_i5wo7m.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574167/dinos/photos/ankylo_b820la.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/ankylosaurio_f9wing.m4a"
+   },
+   "significado": "lagarto acorazado",
+   "id": "12"
   },
   {
-    "nombre": "Giganotosaurus",
-    "orden": "Saurischia",
-    "dieta": "Carnívoro",
-    "longitud": 14,
-    "peso": 8000,
-    "ubicacion": "Sudamérica",
-    "coordenadas": [-29,-63],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/GIGANOTO_zasbmr.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647663/dinos/fossils/gganoto_xbcxfm.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/gigano_nlkcdu.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/giganotosaurio_djqe3w.m4a"
-    },
-    "significado": "Lagarto gigante del sur",
-    "id": "13"
+   "nombre": "Giganotosaurus",
+   "orden": "Saurischia",
+   "dieta": "Carnívoro",
+   "longitud": 14,
+   "peso": 8000,
+   "ubicacion": "Sudamérica",
+   "coordenadas": [
+    -29,
+    -63
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577742/dinos/skulls/GIGANOTO_zasbmr.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647663/dinos/fossils/gganoto_xbcxfm.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/gigano_nlkcdu.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/giganotosaurio_djqe3w.m4a"
+   },
+   "significado": "Lagarto gigante del sur",
+   "id": "13"
   },
   {
-    "nombre": "Diplodocus",
-    "orden": "Saurischia",
-    "dieta": "Hervíboro",
-    "longitud": 25,
-    "peso": 17000,
-    "ubicacion": "Norteámerica",
-    "coordenadas": [25,-103],
-    "periodo": "Jurásico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577741/dinos/skulls/DIPLODO_y5xwor.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647663/dinos/fossils/diplo_c1tutq.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/dilopo_ey5ceo.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/diplodocus_of6dos.m4a"
-    },
-    "significado": "doble viga",
-    "id": "14"
+   "nombre": "Diplodocus",
+   "orden": "Saurischia",
+   "dieta": "Hervíboro",
+   "longitud": 25,
+   "peso": 17000,
+   "ubicacion": "Norteámerica",
+   "coordenadas": [
+    25,
+    -103
+   ],
+   "periodo": "Jurásico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577741/dinos/skulls/DIPLODO_y5xwor.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647663/dinos/fossils/diplo_c1tutq.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/dilopo_ey5ceo.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/diplodocus_of6dos.m4a"
+   },
+   "significado": "doble viga",
+   "id": "14"
   },
   {
-    "nombre": "Deinonycus",
-    "orden": "Saurischia",
-    "dieta": "Carnívoro",
-    "longitud": 3.5,
-    "peso": 100,
-    "ubicacion": "Norteámerica",
-    "coordenadas": [50,-95],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577741/dinos/skulls/DEYNO_z6iutd.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647663/dinos/fossils/deino_chztgc.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/deino_r0tfaq.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/deinonycus_bxxvyv.m4a"
-    },
-    "significado": "Garra terrible",
-    "id": "15"
+   "nombre": "Deinonycus",
+   "orden": "Saurischia",
+   "dieta": "Carnívoro",
+   "longitud": 3.5,
+   "peso": 100,
+   "ubicacion": "Norteámerica",
+   "coordenadas": [
+    50,
+    -95
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577741/dinos/skulls/DEYNO_z6iutd.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647663/dinos/fossils/deino_chztgc.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574169/dinos/photos/deino_r0tfaq.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/deinonycus_bxxvyv.m4a"
+   },
+   "significado": "Garra terrible",
+   "id": "15"
   },
   {
-    "nombre": "Carnotaurus",
-    "orden": "Saurischia",
-    "dieta": "Carnívoro",
-    "longitud": 9,
-    "peso": 3000,
-    "ubicacion": "Sudamérica",
-    "coordenadas": [-38,-66],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577741/dinos/skulls/CARNOTA_d7vwi9.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647663/dinos/fossils/carnota_vhsiqn.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/carnota_uohkfh.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/carnotaurus_ki8uxn.m4a"
-    },
-    "significado": "toro carnívoro",
-    "id": "16"
+   "nombre": "Carnotaurus",
+   "orden": "Saurischia",
+   "dieta": "Carnívoro",
+   "longitud": 9,
+   "peso": 3000,
+   "ubicacion": "Sudamérica",
+   "coordenadas": [
+    -38,
+    -66
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577741/dinos/skulls/CARNOTA_d7vwi9.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647663/dinos/fossils/carnota_vhsiqn.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/carnota_uohkfh.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/carnotaurus_ki8uxn.m4a"
+   },
+   "significado": "toro carnívoro",
+   "id": "16"
   },
   {
-    "nombre": "Carcharodontosaurus",
-    "orden": "Saurischia",
-    "dieta": "Carnívoro",
-    "longitud": 13,
-    "peso": 8000,
-    "ubicacion": "África",
-    "coordenadas": [24,5],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577741/dinos/skulls/CARCHARO_p8g2jx.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/Sin_t%C3%ADtulo-1_ng7gbh.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/carcha_wcibcx.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/carcharondontosaurio_ifayh0.m4a"
-    },
-    "significado": "lagarto con dientes de tiburón",
-    "id": "17"
+   "nombre": "Carcharodontosaurus",
+   "orden": "Saurischia",
+   "dieta": "Carnívoro",
+   "longitud": 13,
+   "peso": 8000,
+   "ubicacion": "África",
+   "coordenadas": [
+    24,
+    5
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577741/dinos/skulls/CARCHARO_p8g2jx.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647665/dinos/fossils/Sin_t%C3%ADtulo-1_ng7gbh.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/carcha_wcibcx.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574230/dinos/sounds/carcharondontosaurio_ifayh0.m4a"
+   },
+   "significado": "lagarto con dientes de tiburón",
+   "id": "17"
   },
   {
-    "nombre": "Argentinosaurus",
-    "orden": "Saurischia",
-    "dieta": "Hervíboro",
-    "longitud": 33,
-    "peso": 67000,
-    "ubicacion": "Sudamérica",
-    "coordenadas": [-40,-70],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/ARGENTINO_ry5107.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647667/dinos/fossils/argentino_i784kj.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/argentino_qplqjb.png",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/argentinosaurus_estykx.m4a"
-    },
-    "significado": "reptil de Argentina",
-    "id": "18"
+   "nombre": "Argentinosaurus",
+   "orden": "Saurischia",
+   "dieta": "Hervíboro",
+   "longitud": 33,
+   "peso": 67000,
+   "ubicacion": "Sudamérica",
+   "coordenadas": [
+    -40,
+    -70
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/ARGENTINO_ry5107.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647667/dinos/fossils/argentino_i784kj.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574168/dinos/photos/argentino_qplqjb.png",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/argentinosaurus_estykx.m4a"
+   },
+   "significado": "reptil de Argentina",
+   "id": "18"
   },
   {
-    "nombre": "Apatosaurus",
-    "orden": "Saurischia",
-    "dieta": "Hervíboro",
-    "longitud": 23,
-    "peso": 40000,
-    "ubicacion": "Norteámerica",
-    "coordenadas": [39,-120],
-    "periodo": "Jurásico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/APATOSA_iqzqqi.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647667/dinos/fossils/apato_kfewbu.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574167/dinos/photos/apato_iidjms.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/apatosaurio_dbemn2.m4a"
-    },
-    "significado": "lagarto engañoso",
-    "id": "19"
+   "nombre": "Apatosaurus",
+   "orden": "Saurischia",
+   "dieta": "Hervíboro",
+   "longitud": 23,
+   "peso": 40000,
+   "ubicacion": "Norteámerica",
+   "coordenadas": [
+    39,
+    -120
+   ],
+   "periodo": "Jurásico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/APATOSA_iqzqqi.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647667/dinos/fossils/apato_kfewbu.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574167/dinos/photos/apato_iidjms.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/apatosaurio_dbemn2.m4a"
+   },
+   "significado": "lagarto engañoso",
+   "id": "19"
   },
   {
-    "nombre": "Brachiosaurus",
-    "orden": "Saurischia",
-    "dieta": "Hervíboro",
-    "longitud": 26,
-    "peso": 35000,
-    "ubicacion": "Norteámerica",
-    "coordenadas": [35,-105],
-    "periodo": "Jurásico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/BRACHIO_vf7zml.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647667/dinos/fossils/brachio_jccucs.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574167/dinos/photos/braquio_wzbrvt.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/brachiosaurio_radajp.m4a"
-    },
-    "significado": "lagarto brazo",
-    "id": "20"
+   "nombre": "Brachiosaurus",
+   "orden": "Saurischia",
+   "dieta": "Hervíboro",
+   "longitud": 26,
+   "peso": 35000,
+   "ubicacion": "Norteámerica",
+   "coordenadas": [
+    35,
+    -105
+   ],
+   "periodo": "Jurásico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/BRACHIO_vf7zml.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647667/dinos/fossils/brachio_jccucs.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574167/dinos/photos/braquio_wzbrvt.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/brachiosaurio_radajp.m4a"
+   },
+   "significado": "lagarto brazo",
+   "id": "20"
   },
   {
-    "nombre": "Baryonyx",
-    "orden": "Saurischia",
-    "dieta": "Piscívoro",
-    "longitud": 10,
-    "peso": 3000,
-    "ubicacion": "Reino Unido",
-    "coordenadas": [52,-2],
-    "periodo": "Cretácico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/BARYONYX_birezw.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647667/dinos/fossils/baryonyx_gmr4um.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574167/dinos/photos/baryo_dtnder.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/baryonyx_ihepxe.m4a"
-    },
-    "significado": "garra pesada",
-    "id": "21"
+   "nombre": "Baryonyx",
+   "orden": "Saurischia",
+   "dieta": "Piscívoro",
+   "longitud": 10,
+   "peso": 3000,
+   "ubicacion": "Reino Unido",
+   "coordenadas": [
+    52,
+    -2
+   ],
+   "periodo": "Cretácico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/BARYONYX_birezw.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647667/dinos/fossils/baryonyx_gmr4um.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574167/dinos/photos/baryo_dtnder.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/baryonyx_ihepxe.m4a"
+   },
+   "significado": "garra pesada",
+   "id": "21"
   },
   {
-    "nombre": "Allosaurus",
-    "orden": "Saurischia",
-    "dieta": "Carnívoro",
-    "longitud": 11,
-    "peso": 3000,
-    "ubicacion": "Europa",
-    "coordenadas": [52,8],
-    "periodo": "Jurásico",
-    "media": {
-      "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/ALLOSAURUS_nzuqpt.png",
-      "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647666/dinos/fossils/allosaurio_jwwamu.png",
-      "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574167/dinos/photos/allosa_lsx1ol.jpg",
-      "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/allosaurio_aaz7pd.m4a"
-    },
-    "significado": "lagarto extraño",
-    "id": "22"
+   "nombre": "Allosaurus",
+   "orden": "Saurischia",
+   "dieta": "Carnívoro",
+   "longitud": 11,
+   "peso": 3000,
+   "ubicacion": "Europa",
+   "coordenadas": [
+    52,
+    8
+   ],
+   "periodo": "Jurásico",
+   "media": {
+    "marker": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676577740/dinos/skulls/ALLOSAURUS_nzuqpt.png",
+    "fosil": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676647666/dinos/fossils/allosaurio_jwwamu.png",
+    "paleoart": "https://res.cloudinary.com/di0zpa5yw/image/upload/v1676574167/dinos/photos/allosa_lsx1ol.jpg",
+    "sonido": "https://res.cloudinary.com/di0zpa5yw/video/upload/v1676574229/dinos/sounds/allosaurio_aaz7pd.m4a"
+   },
+   "significado": "lagarto extraño",
+   "id": "22"
   }
-]
+ ]

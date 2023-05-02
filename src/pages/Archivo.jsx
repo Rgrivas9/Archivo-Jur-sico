@@ -4,6 +4,7 @@ import { PageContext } from "../context/pageContext";
 import filtrado from "../utils/filtrado";
 import ordenar from "../utils/ordenar";
 import unicos from "../utils/unicos";
+import dinosJSON from '../../dinosaurios.json'
 import "./archivo.css";
 
 const Archivo = () => {
@@ -12,9 +13,9 @@ const Archivo = () => {
   useEffect(() => {
     setPage("archivo");
   }, [page]);
-  const [dinos, setDinos] = useState([]);
-  const [filterDinos, setFilterDinos] = useState([]);
-  useEffect(() => {
+  const [dinos, setDinos] = useState(ordenar(dinosJSON, "nombre", 0));
+  const [filterDinos, setFilterDinos] = useState(ordenar(dinosJSON, "nombre", 0));
+  /* useEffect(() => {
     fetch("https://63ee3a9bd466e0c18babfb1c.mockapi.io/dinosaurs")
       .then((res) => res.json())
       .then((res) => {
@@ -23,7 +24,7 @@ const Archivo = () => {
         mrAdn.current.classList.add('hidden')
         dinoSection.current.classList.remove('hidden')
       });
-  }, []);
+  }, []); */
   const [filtros, setFiltros] = useState({
     periodo: "todos",
     ubicacion: "todas",
@@ -52,7 +53,7 @@ const Archivo = () => {
   const dinoSection = useRef();
   const buttonShowFilters = useRef();
   const buttonHideFilters = useRef();
-  const mrAdn = useRef()
+  //const mrAdn = useRef()
   return (
     <main className="mainArchivo">
       <div className="filtrosBtn" ref={buttonShowFilters}>
@@ -230,9 +231,9 @@ const Archivo = () => {
           />
         </button>
       </div>
-          <div className="MrAdn" ref={mrAdn}><h2>Cargando...</h2></div>
+          {/* <div className="MrAdn" ref={mrAdn}><h2>Cargando...</h2></div> */}
       <section
-        className="dinosaurSection sectionWithoutSelectNav hidden"
+        className="dinosaurSection sectionWithoutSelectNav"
         ref={dinoSection}
       >
         {filterDinos.map((dinosaurio) => (

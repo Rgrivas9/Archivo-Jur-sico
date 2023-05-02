@@ -4,6 +4,8 @@ import "./mapa.css";
 import { useContext, useEffect, useState } from "react";
 import DinoFigure from '../components/DinoFigure'
 import { PageContext } from "../context/pageContext";
+import dinosJSON from '../../dinosaurios.json'
+
 const center = [38, -10];
 const getIcon = (url) => {
   const icon = new L.icon({
@@ -20,14 +22,14 @@ const Mapa = () => {
   useEffect(() => {
     setPage("mapa");
   }, [page]);
-  const [dinos, setDinos] = useState([]);
-  useEffect(() => {
+  const [dinos, setDinos] = useState(dinosJSON);
+  /* useEffect(() => {
     fetch("https://63ee3a9bd466e0c18babfb1c.mockapi.io/dinosaurs")
       .then((res) => res.json())
       .then((res) => {
         setDinos(res);
       });
-  }, []);
+  }, []); */
   return (
     <main className="mainMapa">
       <MapContainer
